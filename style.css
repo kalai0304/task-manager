@@ -1,0 +1,151 @@
+*{
+    padding: 10px;
+    margin: 0;
+}
+.merriweather-light , *{
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+.container{
+    width: 500px;
+    background-color: lightgray;
+    height: auto;
+    padding-top: 20px !important;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    margin: 4vh 2vh;
+}
+.example{
+    padding: 10px 0;
+}
+.codeclass{
+    background-color: white;
+    border-left: 5px solid #04AA6D;
+    padding:5px;
+    margin-bottom: 1em;
+}
+.container .btn{
+    padding: 5px;
+    /* padding: 20px 10px; */
+    background-color: #04AA6D;
+    text-decoration: none;
+    border-radius: 4px;
+    color: white;
+}
+
+/* add to cart card */
+.addtocart{
+    width: 30%;
+    height: auto;
+    border: 2px solid rgb(165, 234, 233);
+    position: relative;
+    left: 5%;
+    padding: 10px;
+}
+.checked{
+    color: orange;
+}  
+.wishlist
+{
+    position:absolute;
+    top: 5%;
+    left: 10%;
+}
+
+.btn1{
+    position: absolute;
+    top: 90%;
+    left: 70%;
+}
+.ratinsandprice{
+    display: flex;
+    /* justify-content: space-around; */
+    
+}
+
+
+/* Task 1  Task Manager */
+
+#selecttask{
+    /* // A reset of styles, including removing the default dropdown arrow */
+    /* appearance: none; */
+    /* // Additional resets for further consistency */
+    /* background-color: transparent; */
+    border: none;
+    padding: 0 1em 0 0.2em;
+    margin: 0;
+    width: 30%;
+    /* font-family:popins; */
+    font-size: 1.1rem;
+    cursor: pointer;
+    line-height: inherit;
+    /* pos */
+  }
+.title{
+    text-align: center;
+    background-color: rgb(162, 243, 228);
+    font-size: 2em;
+    font-weight: 600;
+    color: rgb(54, 164, 124) ;
+}
+.filtertable{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.table table{
+    /* background-color:blue;
+    border: 3px solid black; */
+    /* color: white; */
+    /* border: double;/
+     */
+     /* width; */
+     border-collapse: collapse;
+     color: white;
+
+
+}
+.timer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.duration{
+    /* display: inline;
+    position: relative;
+    left: 30%;
+    bottom: 10px;*/
+    padding: 0;
+}
+.up{
+    display: none;
+}
+.table table th{
+    background-color: rgb(34, 34, 63);
+}
+.table table tr{
+    border-bottom: 2px solid white;
+}
+tr:nth-child(1n){
+    background-color: rgb(123, 128, 123);
+}
+tr:nth-child(2n){
+    background-color: rgb(213, 206, 206);
+}
+
+.d-none{
+    display: none;
+}
+
+.d-block{
+    display: block;
+}
+.spanele{
+    display: inherit;
+}
+.inputele{
+    width: 90%;
+
+}
